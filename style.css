@@ -1,11 +1,23 @@
+body {
+    background-color: darkcyan;
+}
+
 div {
     border: 2px solid black;
     height: 600px;
     width: 800px;
     margin: auto;
     margin-top: 50px;
+    text-align: center;
+    background-color: lightgrey;;
 }
 
 #result {
     color:red;
+}
+
+#gameresults {
+    border: 2px solid black;
+    max-height: 150px;
+    max-width: 100px;
 }
